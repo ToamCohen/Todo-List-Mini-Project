@@ -45,6 +45,7 @@ button{
 .todo *{
   display: grid;
   align-content: center;
+  text-align: center;
 }
 
 i{font-size: 0.6em; cursor: pointer; }
@@ -52,3 +53,10 @@ i:active{font-size: 0.5em}
 
 .fa-trash{color: #e74c3c}
 .fa-check-circle{color: #27ae60}
+
+.delete{
+  
+  margin-left: -75px;
+  max-width: 84px;
+}
+
