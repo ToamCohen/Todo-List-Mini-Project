@@ -14,7 +14,7 @@ You can use whatever concepts you know until now to complete this project: Modul
 
 ## Logic Module/Class
 
-Head over to the logic.js file and create a `Logic` module/class there.
+Head over to the `logic.js` file and create a `Logic` module/class there. This should include:
 
 -   An array of `todos` - use the dummy data below to get started (and to understand how each object should look)
 -   A `getTodos` function/method that returns the `todos` array
@@ -22,8 +22,8 @@ Head over to the logic.js file and create a `Logic` module/class there.
     -   Each object should have three properties:`id`, `text`, and `completed`
     -   You should generate the next id correctly for each `todo`: `"t4", "t5", ...`
     -   You should default the `completed` property to `false`
--   A `removeTodo` function/method that recives a postID and removes the relevant `todo` from `todos`
--   A `markComplete` function/method that recives a postID and changes the `todo`'s `completed` property to `true`
+-   A `removeTodo` function/method that recives a `todoId` and removes the relevant `todo` from `todos`
+-   A `markComplete` function/method that recives a `todoId` and changes the `todo`'s `completed` property to `true`
 
 Here is some dummy data to start you off:
 
@@ -100,4 +100,4 @@ There's not much code to write since your other modules do most of the work, but
 
 ## Extension
 
-Allow a user to unmark a `todo` as complete. For this, you'll need to change something small in your `markComplete` function in `Logic`.
+Allow a user to unmark a `todo` as complete. For this, you might need to change something small in your `markComplete` function in `Logic`.
